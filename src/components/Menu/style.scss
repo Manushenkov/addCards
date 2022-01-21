@@ -1,0 +1,52 @@
+.menu {
+  display: flex;
+  flex-direction: column;
+  min-width: 332px;
+  box-sizing: border-box;
+  margin-right: 16px;
+  padding: 24px;
+  background: #FFFEFB;
+  box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.04), 0px 6px 10px rgba(0, 0, 0, 0.02);
+  border-radius: 4px;
+}
+
+.menu__label {
+  margin-bottom: 4px;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 13px;
+  letter-spacing: -0.02em;
+}
+
+.menu__input {
+  height: 36px;
+  margin-bottom: 16px;
+  background: #FFFEFB;
+  border-radius: 4px;
+  border: none;
+  padding: 0 16px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.menu__input:focus-visible {
+  border: none;
+}
+
+#price {
+  margin-bottom: 24px;
+}
+
+#description {
+  height: 108px;
+  padding-top: 8px;
+  resize: none;
+}
+
+.menu__button {
+  height: 36px;
+  background: #7BAE73;
+  border-radius: 10px;
+  border: none;
+  color: #FFFFFF;
+  font-size: 12px;
+}

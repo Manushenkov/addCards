@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+  align-items: flex-start;
+  width: 1376px;
+  margin: auto;
+  padding-top: 40px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+}
